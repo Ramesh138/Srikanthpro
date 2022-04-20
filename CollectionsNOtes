@@ -1,0 +1,65 @@
+Arrays Vs Collections
+
+Arrays are static in size  and collections was dynamic in size
+
+Arrays are homogenous and collections are homogenious and hetrogenious 
+
+Array will take more memory and collection will take less memory
+
+Arrays can perform more than Collection 
+
+Arryas:
+
+int values[]={10,20,30,40,50};
+
+
+List<Integer> li = new List<Integer>;
+
+li.add(10);
+li.add(20);
+
+Collection vs Collections:
+
+Collection – In any programming language or real life, a Collection is a group of objects (similar or different).
+
+Collection Framework – Collection Framework in JAVA (as we are focusing on JAVA) is a hierarchical representation of classes and interfaces 
+which provide the framework to deal with a group of objects. Group of objects can be a group of Strings or Integers, or a group of Objects of a particular class etc.
+
+Collections – Collections is a utility class present in java.util package. 
+It defines several utility methods like sorting and searching which are used to operate on collection. All the methods inside Collections class are static.
+
+
+
+list :
+
+list is a interface and implements arraylist and linkedlist
+
+list display elements insertion order
+
+list also includes null values
+
+list will allow duplicates 
+
+set 
+
+set is a interface hashset treeset and linkedhashset
+
+it doest allow duplicates
+
+it will allow only one null null
+
+it doest follow the insertion order
+
+map
+
+map is interface for hashmap and hashtable ,treemap
+it doest allow duplicates
+
+it will allow only one key as  null
+
+it doest follow the insertion order
+
+
+
+ HashTable is synchronized. HashMap is not synchronized. 
+ HashTable is thread safe. HashMap is not thread safe.
